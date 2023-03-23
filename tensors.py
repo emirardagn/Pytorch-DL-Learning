@@ -64,7 +64,7 @@ random_tensor = torch.rand(3,4)
 
 #print(random_tensor)
 
-# Create a random tensor with similear shape to an image tensor
+# Create a random tensor with similar shape to an image tensor
 
 random_image_size_tensor = torch.rand(size=(224,224,3)) #height,width,color channels(R,G,B)
 
